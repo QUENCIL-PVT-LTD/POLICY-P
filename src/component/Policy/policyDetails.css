@@ -3,10 +3,12 @@
 .policy-detail-main {
     margin-top: 20px;
 	display: flex;
+	
 }
 .policy-detail-left {
 	width: 67%;
 	padding: 15px;
+	
 }
 .policy-detail-left h1 {
     color: #323232;;
@@ -29,6 +31,9 @@
 }
 .policy-details-left-box{
     margin: 10px;
+	background: url('../../assite/images/Background-policy-details.jpg') no-repeat;
+	background-size: cover;
+	padding: 10px;
 }
 .policy-detais-rigth-box .policy-main-card {
     margin-bottom: 0px;

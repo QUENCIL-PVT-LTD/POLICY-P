@@ -56,17 +56,19 @@ font-weight: 600;
 	font-size: 20px;
 	margin-top: 5px;
 	margin-bottom: 20px;
+	padding-top: 10px;
 	color: aliceblue;
 }
 .policy-main-card button {
 	border: 1px solid black;
 	width: 90%;
 	border: none;
-	font-size: 1.14vw;
+	font-size: 1.4vw;
 	background: none;
 	font-weight: 600;
 	text-align: end;
-	margin-top: 10px;
+	margin-top: 0px;
+	
 	color: aliceblue;
 	height: 80%;
 }

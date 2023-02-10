@@ -1,13 +1,18 @@
 import React from 'react'
 import rightArrow from '../../assite/images/right-arrow3.png'
+import { useNavigate } from 'react-router-dom'
 
 
 const PolicyDetailsRight = () => {
+	const navigate =useNavigate();
+	const getDetails =(event)=>{
+console.log('onclick value =>',event.currentTarget.value)
+	}
   return (
     <div className='policy-detais-rigth-box'>
 	<div className='policy-main-card'>
 					<p>Equal Opportunity Policy</p>
-					<button>
+					<button value={'Equal Opportunity Policy'} onClick={getDetails}>
 						See More
 						<img src={rightArrow} alt='arrow' />
 					</button>
